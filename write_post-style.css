@@ -1,0 +1,145 @@
+/* Reset some basic elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+.site-header {
+    background-color: #004080;
+    padding: 15px 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-item {
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.user-info {
+    margin-left: auto;
+    color: #cce6ff;
+    font-weight: normal;
+}
+
+.logout-link {
+    margin-left: 8px;
+    color: #ff6666;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.post-write-section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+/* Form styles */
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-select {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #003366;
+}
+
+/* Redirect message */
+.redirect-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #004080;
+    color: white;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    direction: rtl;
+}
+
+.message-box {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.message-box h1 {
+    font-size: 22px;
+    color: #333;
+}
+
+.message-box p {
+    color: #666;
+    margin-top: 15px;
+}
+
+.error {
+    color: #d63031;
+    font-weight: bold;
+}
+

@@ -1,0 +1,156 @@
+/* style.css */
+
+/* فونت وزیر */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+
+body {
+    font-family: 'Vazirmatn', 'Vazir', Tahoma, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0 20px 40px 20px;
+    direction: rtl;
+}
+
+.site-header {
+    background-color: #0077b6;
+    padding: 15px 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #e0f0ff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #caf0f8;
+}
+
+.user-info {
+    margin-right: auto;
+    color: #caf0f8;
+    font-weight: 500;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logout-link {
+    color: #ffb703;
+    font-weight: 700;
+}
+
+.logout-link:hover {
+    color: #fb8500;
+}
+
+.content {
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+}
+
+.posts-section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #023e8a;
+    text-align: center;
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-item {
+    padding: 12px 15px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    color: #007c91;
+}
+
+.post-title {
+    font-weight: 700;
+}
+
+.post-date {
+    color: #555;
+    font-style: italic;
+}
+
+.post-link {
+    color: #0077b6;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-link:hover {
+    color: #023e8a;
+    text-decoration: underline;
+}
+
+.delete-link {
+    color: #d90429;
+    font-weight: 700;
+}
+
+.delete-link:hover {
+    color: #9b0000;
+}
+
+.message {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #caf0f8;
+    border-radius: 10px;
+    color: #023e8a;
+    font-weight: 600;
+    text-align: center;
+}
+
+.redirect-msg {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.site-footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+}
+

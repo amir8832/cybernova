@@ -1,0 +1,74 @@
+
+rt url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+
+body {
+    font-family: 'Vazirmatn', 'Vazir', Tahoma, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* هدر سایت */
+.site-header {
+    background-color: #1e88e5;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #bbdefb;
+}
+
+/* محتوای پست */
+.post-container {
+    max-width: 850px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.post-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #0d47a1;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.post-body {
+    font-size: 1.2rem;
+    color: #444;
+    white-space: pre-line;
+}
+
+/* فوتر */
+.site-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 60px;
+    padding: 25px 0;
+    background-color: #f1f1f1;
+}
+
